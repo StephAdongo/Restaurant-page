@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --olive: rgb(204, 232, 136);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  header {
+    background-color: var(--olive);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px gray;
+  }
+  footer{
+    background-color: var(--olive);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-button {
+    padding: 5px;
+    border-radius: 5px;
+    font-family: inherit;
+    background-color: rgb(64, 36, 164);
+    color: antiquewhite;
+  }
+  .tab {
+    background-color: aqua;
+    color: black;
+    border: 3px inset aqua;
+  }
+  
+  #content {
+    margin-top: 48px;
+    background-image: url(./koi.png);
+    background-repeat: repeat;
+    background-size: 500px auto;
+    background-attachment: fixed;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  #content > div {
+    width: 70%;
+    background-color: bisque;
+    border-radius: 10px;
+    padding-bottom: 30px;
+  }
+  .img-container > img {
+    width: 100%;
+    height: auto;
+  }
+  .imgcaption {
+    text-align: center;
+  }
+  
+  .headline {
+    font-weight: 800px;
+    font-style: italic;
+    margin: 20px;
+  }
+  
+  .info {
+    margin: 20px;
+  }
+  .hours {
+    font-size: large;
+    margin: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin: 20px;
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 7px;
+  }
+  
+  .menu-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-card {
+    width: 70%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px lightgray;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: auto 1fr;
+  }
+  .name {
+    grid-column: 1/3;
+    padding: 15px;
+  }
+  .description {
+    padding: 15px;
+  }
+  .price {
+    text-align: end;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 800;
+  }

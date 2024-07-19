@@ -13,7 +13,7 @@ module.exports = {
   module: {
     rules:[
       {
-      test: /\.css$/,
+      test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
       {
@@ -31,7 +31,9 @@ module.exports = {
     new HtmlWebpackPlugin ({
         template:'./src/index.html',
         filename: 'index.html',
-
-    }),
+        inject: 'head',
+      scriptLoading: 'defer',
+    })
   ],
+  
 };
