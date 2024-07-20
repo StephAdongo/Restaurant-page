@@ -1,4 +1,5 @@
-import sheet from './styles.css';
+import './styles.css';
+import _ from 'lodash';
 import home from './home';
 import menu from './menu';
 import about from './about';
