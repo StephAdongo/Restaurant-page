@@ -119,7 +119,10 @@
     "which": "^2.0.2",
     "wildcard": "^2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
