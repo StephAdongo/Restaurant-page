@@ -15,6 +15,4 @@
 Also employs the use of.gitignore
 
 
-To view the project:
-- git clone the respository,
-- run: npm run start.
+
