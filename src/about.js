@@ -11,17 +11,17 @@ contact.appendChild(title);
 const number = document.createElement('p');
 number.classList.add('info');
 number.textContent = 'Phone number: +254 720030099';
-number.appendChild(number);
+contact.appendChild(number);
 
 const email = document.createElement('p');
 email.classList.add('info');
 email.textContent = 'Email : thebranchrestaurant99@gmail.com';
-email.appendChild(email);
+contact.appendChild(email);
 
 const location = document.createElement('p');
 location.classList.add('info');
 location.textContent = 'Location : 345 Kenyatta Avenue,Toers plaza first floor';
-location.appendChild(location);
+contact.appendChild(location);
 
 element.appendChild(contact);
 
@@ -32,7 +32,7 @@ element.appendChild(hours);
 
 const schedule = document.createElement('ul');
 const sunday = document.createElement('li');
-sunday.textContent = 'Closed';
+sunday.textContent = 'Sunday: Closed';
 schedule.appendChild(sunday);
 const monday = document.createElement('li');
 monday.textContent = 'Monday: 6.00AM - 11.00PM';
