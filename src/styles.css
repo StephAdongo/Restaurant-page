@@ -54,17 +54,15 @@
   }
   #content > div {
     width: 70%;
-    background-color: bisque;
+    background-image: url(./homepage.jpg);
     border-radius: 10px;
     padding-bottom: 30px;
   }
   .img-container > img {
-    width: 100%;
-    height: auto;
+  height:100%;
+  width:100%;
   }
-  .imgcaption {
-    text-align: center;
-  }
+  
   
   .headline {
     font-weight: 800px;
@@ -79,6 +77,7 @@
     font-size: large;
     margin: 20px;
     margin-bottom: 10px;
+    
   }
   
   ul {

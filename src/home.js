@@ -1,4 +1,4 @@
-import image from './homepage.jpeg';
+import image from './homepage.jpg';
 
 export default function home (){
 const element = document.createElement('div');
@@ -11,16 +11,6 @@ imageContainer.appendChild(img);
 
 const imgcaption = document.createElement('p');
 imgcaption.classList.add('imgcaption');
-imgcaption.textContent ='Photo by ';
-const photographer = document.createElement('a');
-photographer.href = "https://unsplash.com/@jaywennington?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash";
-  photographer.textContent = "Jay Wennington";
-  imgcaption.appendChild(photographer);
-  imgcaption.insertAdjacentText('beforeend', " on ");
-  const unsplash = document.createElement('a');
-  unsplash.href = "https://unsplash.com/photos/dish-on-white-ceramic-plate-N_Y88TWmGwA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash";
-  unsplash.textContent = 'UnSplash';
-  imgcaption.appendChild(unsplash);
   imageContainer.appendChild(imgcaption);
 
 element.appendChild(imageContainer);
@@ -42,7 +32,7 @@ element.appendChild(hours);
 
 const schedule = document.createElement('ul');
 const sunday = document.createElement('li');
-sunday.textContent = 'Closed';
+sunday.textContent = 'Sunday: Closed';
 schedule.appendChild(sunday);
 const monday = document.createElement('li');
 monday.textContent = 'Monday: 6.00AM - 11.00PM';
