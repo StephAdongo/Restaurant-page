@@ -46,7 +46,7 @@
     margin-top: 48px;
     background-image: url(./koi.png);
     background-repeat: repeat;
-    background-size: 500px auto;
+    background-size: auto;
     background-attachment: fixed;
     flex: 1;
     display: flex;
@@ -57,6 +57,7 @@
     background-image: url(./homepage.jpg);
     border-radius: 10px;
     padding-bottom: 30px;
+    background-size: cover;
   }
   .img-container > img {
   height:100%;
