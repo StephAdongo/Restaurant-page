@@ -57,7 +57,11 @@
     background-image: url(./homepage.jpg);
     border-radius: 10px;
     padding-bottom: 30px;
+<<<<<<< HEAD
     background-size: cover;
+=======
+    background-size:cover;
+>>>>>>> 5e21d34f92a026a4168cab560b40ebe6558e3876
   }
   .img-container > img {
   height:100%;
